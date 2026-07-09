@@ -138,7 +138,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "pet-station", category: "furniture", year: "2025", has3d: false, rot: "-.6deg",
+    slug: "pet-station", category: "furniture", year: "2026", has3d: false, rot: "-.6deg",
     title: "Huella",
     tag: { en: "Pet care station", es: "Estación para mascotas" },
     oneLine: {
