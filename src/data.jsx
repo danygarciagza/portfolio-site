@@ -139,17 +139,17 @@ const PROJECTS = [
   },
   {
     slug: "pet-station", category: "furniture", year: "2025", has3d: false, rot: "-.6deg",
-    title: "Pet Station",
-    tag: { en: "Furniture + pet care", es: "Mobiliario para mascotas" },
+    title: "Huella",
+    tag: { en: "Pet care station", es: "Estación para mascotas" },
     oneLine: {
-      en: "A compact care station that organizes feeding, storage and daily pet routines.",
-      es: "Una estación compacta que organiza alimento, guardado y rutinas diarias para mascotas.",
+      en: "A modular pet station for feeding, rest, storage and daily routines at home.",
+      es: "Una estación modular para alimento, descanso, almacenamiento y rutinas diarias en casa.",
     },
     materials: { en: "Furniture · Concept", es: "Mobiliario · Concepto" },
-    chips: { en: ["Furniture Design", "Organization", "Pet Care"], es: ["Diseño de mobiliario", "Organización", "Cuidado de mascotas"] },
+    chips: { en: ["Furniture Design", "Modular", "Pet Care"], es: ["Furniture Design", "Modular", "Pet Care"] },
     body: {
-      en: "Pet Station is a small furniture piece for keeping pet routines in one place: bowls, food storage, leashes and everyday accessories. The goal is to make the object feel tidy in a home, easy to clean and simple to use every day.",
-      es: "Pet Station es una pieza de mobiliario pensada para reunir las rutinas de una mascota en un solo lugar: platos, almacenamiento de alimento, correas y accesorios de uso diario. La intención es que el objeto se sienta ordenado dentro de casa, sea fácil de limpiar y resulte simple de usar todos los días.",
+      en: "Designed for homes where work and pet care share the same space, Huella centralizes the everyday needs of a pet into one furniture system: rest, feeding, storage and organization. Inspired by the paw print as a symbol of companionship, presence and bond, the station uses modular elements, mobility and vertical storage to reduce visual clutter and make daily interaction easier. It turns scattered bowls, food, toys and accessories into a compact object that feels integrated with the contemporary home.",
+      es: "Diseñada para hogares donde el trabajo y el cuidado de una mascota conviven en el mismo espacio, Huella centraliza las necesidades diarias en un solo sistema de mobiliario: descanso, alimentación, almacenamiento y organización. Inspirada en la huella como símbolo de compañía, presencia y vínculo, la estación utiliza módulos, movilidad y aprovechamiento vertical para reducir el desorden visual y facilitar la interacción diaria. Convierte platos, alimento, juguetes y accesorios dispersos en un objeto compacto que se integra al hogar contemporáneo.",
     },
   },
   {
