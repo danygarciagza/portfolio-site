@@ -29,7 +29,7 @@ function HomeWall({ lang, go, categories }) {
             shape="rect"
             placeholder={tx(cat.name, lang)}
             src={`uploads/home-cat-${cat.id}.webp`}
-            position={cat.id === "product" ? "calc(50% + 0.7175505089137786%) calc(50% + -6.388416193946114% - 80px)" : "50% 50%"}
+            position={cat.id === "product" ? "calc(50% + 0.7175505089137786%) calc(50% + -6.388416193946114% - 40px)" : "50% 50%"}
             scale={cat.id === "product" ? "1.0226681642402349" : "1"}
             loading="eager">
           </image-slot>
