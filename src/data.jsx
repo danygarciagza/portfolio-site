@@ -138,7 +138,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "pet-station", category: "furniture", year: "2026", has3d: false, rot: "-.6deg",
+    slug: "pet-station", category: "furniture", year: "2026", has3d: false, mainSrc: "uploads/huella-main.webp", rot: "-.6deg",
     title: "Huella",
     thumbSrcs: { 1: "uploads/huella-process-1.jpg" },
     thumbPositions: { 1: "50% 48%" },

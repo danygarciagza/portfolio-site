@@ -78,7 +78,7 @@ function Trinket({ kind, floating }) {
   if (kind === "bonsai") {
     return (
       <div className="ledge-trinket bonsai" aria-hidden="true">
-        <img className="bonsai-img" src="uploads/-Pngtree-bonsai asem saraf_8626233.png" alt="" />
+        <img className="bonsai-img" src="uploads/bonsai.webp" alt="" />
         <div className="bonsai-books">
           <div className="bonsai-book top"><span className="bb-frame" /></div>
           <div className="bonsai-book bot" />
@@ -90,7 +90,7 @@ function Trinket({ kind, floating }) {
   if (kind === "cat") {
     return (
       <div className={"ledge-trinket cat" + (floating ? " floating" : "")} aria-hidden="true">
-        <img className="trinket-img" src="uploads/lucky-cat.png" alt="" />
+        <img className="trinket-img" src="uploads/lucky-cat.webp" alt="" />
       </div>
     );
   }
