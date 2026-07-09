@@ -140,6 +140,8 @@ const PROJECTS = [
   {
     slug: "pet-station", category: "furniture", year: "2026", has3d: false, rot: "-.6deg",
     title: "Huella",
+    thumbSrcs: { 1: "uploads/huella-process-1.jpg" },
+    thumbPositions: { 1: "50% 48%" },
     tag: { en: "Pet care station", es: "Estación para mascotas" },
     oneLine: {
       en: "A modular pet station for feeding, rest, storage and daily routines at home.",
