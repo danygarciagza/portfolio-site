@@ -60,7 +60,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "coffee-ritual", category: "product", year: "2025", has3d: false, mainHeight: "500px", mainUnframed: true, rot: "1.5deg",
+    slug: "coffee-ritual", category: "product", year: "2026", has3d: false, mainHeight: "500px", mainUnframed: true, rot: "1.5deg",
     title: { en: "Ryūsui", es: "Ryūsui" },
     mainSrc: "uploads/coffee-ritual-main.webp",
     thumbSrcs: { 2: "uploads/coffee-ritual-thumb-2.webp" },
@@ -77,7 +77,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "sense-rituals", category: "product", year: "2025", has3d: true, thumbCount: 6, modelHeight: "360px", rot: "-1.2deg",
+    slug: "sense-rituals", category: "product", year: "2025", has3d: true, thumbCount: 6, modelHeight: "360px", cameraOrbit: "0deg 75deg 52%", rot: "-1.2deg",
     model: "models/sense-rituals.glb",
     title: "Sense Rituals",
     tag: { en: "Family of products", es: "Familia de productos" },
@@ -138,7 +138,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "pet-station", category: "furniture", year: "2026", has3d: false, mainSrc: "uploads/huella-main.webp", mainUnframed: true, rot: "-.6deg",
+    slug: "pet-station", category: "furniture", year: "2026", has3d: false, mainSrc: "uploads/huella-main.webp", mainHeight: "500px", mainUnframed: true, rot: "-.6deg",
     title: "Huella",
     thumbSrcs: { 1: "uploads/huella-process-1.jpg" },
     thumbPositions: { 1: "50% 48%" },

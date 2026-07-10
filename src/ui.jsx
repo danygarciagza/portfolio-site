@@ -113,7 +113,7 @@ function Model3DViewer({ project, lang }) {
     const mv = mvRef.current;
     if (!mv) return;
     if (mv.resetTurntableRotation) mv.resetTurntableRotation();
-    mv.cameraOrbit = "0deg 75deg 40%";
+    mv.cameraOrbit = project.cameraOrbit || "0deg 75deg 40%";
     mv.cameraTarget = "auto auto auto";
   };
 
@@ -139,7 +139,7 @@ function Model3DViewer({ project, lang }) {
         shadow-softness="1"
         exposure="1.05"
         environment-image="neutral"
-        camera-orbit="0deg 75deg 40%"
+        camera-orbit={project.cameraOrbit || "0deg 75deg 40%"}
         min-camera-orbit="auto auto 20%"
         max-camera-orbit="auto auto 200%">
       </model-viewer> : <div className="mv3d-loading" aria-hidden="true" />}

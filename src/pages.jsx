@@ -118,11 +118,11 @@ function ProjectDetail({ lang, go, catId, slug }) {
       </div>
       <div className="project-pager" aria-label={lang === "es" ? "Navegación de proyectos" : "Project navigation"}>
         <button className="pager-link" onClick={() => go("project", { cat: cat.id, slug: prev.slug })}>
-          <span className="pager-dir">← {tx(T.prev, lang)}</span>
+          <span className="pager-dir"><span className="pager-arrow">←</span> {tx(T.prev, lang)}</span>
           <span className="pager-name display">{tx(prev.title, lang)}</span>
         </button>
         <button className="pager-link next" onClick={() => go("project", { cat: cat.id, slug: next.slug })}>
-          <span className="pager-dir">{tx(T.next, lang)} →</span>
+          <span className="pager-dir">{tx(T.next, lang)} <span className="pager-arrow">→</span></span>
           <span className="pager-name display">{tx(next.title, lang)}</span>
         </button>
       </div>
@@ -148,7 +148,6 @@ function ProjectDetail({ lang, go, catId, slug }) {
       </div>
       <div className="shelf-nav shelf-nav-bottom">
         <button className="shelf-jump" onClick={() => go("work", { focus: cat.id })}>
-          <span className="sj-arrow">←</span>
           <span className="sj-txt">
             <span className="sj-lbl">{lang === "es" ? "Volver al estante" : "Back to shelf"}</span>
             <span className="sj-nm">{tx(cat.name, lang)}</span>
@@ -160,7 +159,6 @@ function ProjectDetail({ lang, go, catId, slug }) {
               <span className="sj-lbl">{lang === "es" ? "Siguiente estante" : "Next shelf"}</span>
               <span className="sj-nm">{tx(nextCat.name, lang)}</span>
             </span>
-            <span className="sj-arrow">→</span>
           </button>
         }
       </div>

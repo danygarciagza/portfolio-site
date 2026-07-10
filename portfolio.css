@@ -666,6 +666,11 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   color: var(--ink-faint);
   margin-bottom: 4px;
 }
+.pager-arrow {
+  font-size: 18px;
+  line-height: 0;
+  vertical-align: -2px;
+}
 .pager-name {
   display: block;
   font-family: var(--font-display);
@@ -698,12 +703,6 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   border-color: var(--accent); transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0,0,0,.07);
 }
-.shelf-jump .sj-arrow {
-  font-size: 17px; line-height: 1; color: var(--accent-deep);
-  transition: transform .15s ease;
-}
-.shelf-jump:hover .sj-arrow { transform: translateX(-3px); }
-.shelf-jump.alt:hover .sj-arrow { transform: translateX(3px); }
 .shelf-jump .sj-txt { display: flex; flex-direction: column; gap: 2px; }
 .shelf-jump .sj-lbl {
   font-family: var(--font-type); font-size: 9.5px; letter-spacing: .12em;
