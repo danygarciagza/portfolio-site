@@ -138,7 +138,6 @@ function WorkIndex({ lang, go, coverTitle = "Top", editCovers = false, onToggleE
   const titlePos = String(coverTitle).toLowerCase(); // "top" | "bottom" | "off"
   return (
     <div className="page-wrap view-enter">
-      <div className="crumbs"><span>{T.nav[lang][2]}</span></div>
       <div className="cat-head">
         <div className="eyebrow">{lang === "es" ? "Portafolio" : "Portfolio"}</div>
         <h1>{lang === "es" ? "Proyectos" : "Work"}</h1>
