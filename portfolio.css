@@ -857,6 +857,15 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   padding: 18px;
   perspective: 1200px;
 }
+.viewer-main.unframed {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.viewer-main.unframed image-slot {
+  background: transparent;
+}
 .viewer-main image-slot {
   display:block; width: 100%; aspect-ratio: 1/1;
   transition: transform .4s cubic-bezier(.2,.7,.3,1);

@@ -60,7 +60,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "coffee-ritual", category: "product", year: "2025", has3d: false, mainHeight: "500px", rot: "1.5deg",
+    slug: "coffee-ritual", category: "product", year: "2025", has3d: false, mainHeight: "500px", mainUnframed: true, rot: "1.5deg",
     title: { en: "Ryūsui", es: "Ryūsui" },
     mainSrc: "uploads/coffee-ritual-main.webp",
     thumbSrcs: { 2: "uploads/coffee-ritual-thumb-2.webp" },
@@ -93,7 +93,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "nido", category: "product", year: "2025", has3d: false, rot: "1deg",
+    slug: "nido", category: "product", year: "2025", has3d: false, mainUnframed: true, rot: "1deg",
     title: "Nido",
     tag: { en: "Family of products", es: "Familia de productos" },
     oneLine: {
@@ -108,7 +108,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "prisma", category: "furniture", year: "2025", has3d: false, mainHeight: "440px", rot: "-1.5deg",
+    slug: "prisma", category: "furniture", year: "2025", has3d: false, mainHeight: "440px", mainUnframed: true, rot: "-1.5deg",
     title: "Prisma",
     tag: { en: "Side table", es: "Mesa auxiliar" },
     oneLine: {
@@ -138,7 +138,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "pet-station", category: "furniture", year: "2026", has3d: false, mainSrc: "uploads/huella-main.webp", rot: "-.6deg",
+    slug: "pet-station", category: "furniture", year: "2026", has3d: false, mainSrc: "uploads/huella-main.webp", mainUnframed: true, rot: "-.6deg",
     title: "Huella",
     thumbSrcs: { 1: "uploads/huella-process-1.jpg" },
     thumbPositions: { 1: "50% 48%" },

@@ -343,7 +343,7 @@ function ProductViewer({ project, lang, section = "all" }) {
         </div> :
 
       <>
-          <div className={"viewer-main" + (project.has3d ? " has3d" : "") + (project.mainHeight ? " fixed-height" : "")} style={{ position: "relative", "--main-height": project.mainHeight || "auto" }}>
+          <div className={"viewer-main" + (project.has3d ? " has3d" : "") + (project.mainHeight ? " fixed-height" : "") + (project.mainUnframed ? " unframed" : "")} style={{ position: "relative", "--main-height": project.mainHeight || "auto" }}>
             {project.has3d ?
           <Model3DViewer project={project} lang={lang} /> :
           <ZoomableSlot
