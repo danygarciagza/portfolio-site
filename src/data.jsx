@@ -144,14 +144,14 @@ const PROJECTS = [
     thumbPositions: { 1: "50% 48%" },
     tag: { en: "Pet care station", es: "Estación para mascotas" },
     oneLine: {
-      en: "A modular pet station for feeding, rest, storage and daily routines at home.",
-      es: "Una estación modular para alimento, descanso, almacenamiento y rutinas diarias en casa.",
+      en: "A full-scale modular pet station built from concept to high-quality prototype.",
+      es: "Una estación modular para mascotas desarrollada desde concepto hasta prototipo de alta calidad.",
     },
-    materials: { en: "Furniture · Concept", es: "Mobiliario · Concepto" },
-    chips: { en: ["Furniture Design", "Modular", "Pet Care"], es: ["Furniture Design", "Modular", "Pet Care"] },
+    materials: { en: "Laminated MDF · Blum hardware · Prototype", es: "MDF laminado · Herrajes Blum · Prototipo" },
+    chips: { en: ["Furniture Design", "Modular", "Prototype"], es: ["Furniture Design", "Modular", "Prototype"] },
     body: {
-      en: "Designed for homes where work and pet care share the same space, Huella centralizes the everyday needs of a pet into one furniture system: rest, feeding, storage and organization. Inspired by the paw print as a symbol of companionship, presence and bond, the station uses modular elements, mobility and vertical storage to reduce visual clutter and make daily interaction easier. It turns scattered bowls, food, toys and accessories into a compact object that feels integrated with the contemporary home.",
-      es: "Diseñada para hogares donde el trabajo y el cuidado de una mascota conviven en el mismo espacio, Huella centraliza las necesidades diarias en un solo sistema de mobiliario: descanso, alimentación, almacenamiento y organización. Inspirada en la huella como símbolo de compañía, presencia y vínculo, la estación utiliza módulos, movilidad y aprovechamiento vertical para reducir el desorden visual y facilitar la interacción diaria. Convierte platos, alimento, juguetes y accesorios dispersos en un objeto compacto que se integra al hogar contemporáneo.",
+      en: "Huella was developed for a university design challenge in collaboration with Blum, where the project specifications required the use of Blum hardware. My team designed and built a full modular pet station from concept to high-quality prototype using laminated MDF and integrated hardware for storage, access and daily use. The piece centralizes feeding, rest, accessories and organization into one furniture system for contemporary homes where pet care and everyday routines share the same space. Our project won the challenge, earning the team a trip to Austria to visit Blum's headquarters.",
+      es: "Huella se desarrolló para un reto de diseño universitario en colaboración con Blum, donde las especificaciones del proyecto requerían integrar herrajes Blum. Mi equipo diseñó y construyó una estación modular completa para mascotas, desde el concepto hasta un prototipo de alta calidad, usando MDF laminado y herrajes integrados para almacenamiento, acceso y uso diario. La pieza centraliza alimentación, descanso, accesorios y organización en un solo sistema de mobiliario para hogares contemporáneos donde el cuidado de una mascota convive con las rutinas diarias. Nuestro proyecto ganó el reto, obteniendo para el equipo un viaje a Austria para visitar la sede de Blum.",
     },
   },
   {
