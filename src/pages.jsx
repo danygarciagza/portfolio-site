@@ -106,9 +106,6 @@ function ProjectDetail({ lang, go, catId, slug }) {
   if (!project) return null;
   const prev = siblings[(idx - 1 + siblings.length) % siblings.length];
   const next = siblings[(idx + 1) % siblings.length];
-  const catIdx = CATEGORIES.findIndex((c) => c.id === cat.id);
-  const nextCat = CATEGORIES[(catIdx + 1) % CATEGORIES.length];
-
   return (
     <div className="page-wrap view-enter" key={project.slug}>
       <div className="crumbs">

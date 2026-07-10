@@ -93,7 +93,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "nido", category: "product", year: "2025", has3d: false, mainUnframed: true, rot: "1deg",
+    slug: "nido", category: "product", year: "2025", has3d: false, mainUnframed: true, wideSrc: "uploads/nido-elephant-views.webp", wideAspect: "16/9", rot: "1deg",
     title: "Nido",
     tag: { en: "Family of products", es: "Familia de productos" },
     oneLine: {

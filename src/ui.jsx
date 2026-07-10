@@ -257,7 +257,9 @@ function ProductViewer({ project, lang, section = "all" }) {
   [1, 2, 3, 4].map((n) => `pv-${project.slug}-g${n}`) :
   isSlides ?
   Array.from({ length: slideCount }, (_, i) => `pv-${project.slug}-s${i + 1}`) :
-  (project.has3d ? [] : [`pv-${project.slug}-main`]).concat(Array.from({ length: project.thumbCount || 3 }, (_, i) => `pv-${project.slug}-a${i + 1}`));
+  (project.has3d ? [] : [`pv-${project.slug}-main`]).
+  concat(Array.from({ length: project.thumbCount || 3 }, (_, i) => `pv-${project.slug}-a${i + 1}`)).
+  concat(project.wideSrc ? [`pv-${project.slug}-wide`] : []);
 
   const galleryIds = allGalleryIds;
 
@@ -370,6 +372,18 @@ function ProductViewer({ project, lang, section = "all" }) {
             onZoom={openZoom} />
           )}
           </div>
+          {project.wideSrc &&
+          <div className={"viewer-wide" + (project.mainUnframed ? " unframed" : "")} style={{ "--wide-aspect": project.wideAspect || "1/1" }}>
+              <ZoomableSlot
+              id={`pv-${project.slug}-wide`}
+              shape="rect"
+              placeholder="wide view"
+              src={project.wideSrc}
+              position={project.widePosition}
+              scale={project.wideScale}
+              onZoom={openZoom} />
+            </div>
+          }
         </>
       }
       {lbEl}

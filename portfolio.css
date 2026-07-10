@@ -962,6 +962,32 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
 .thumbs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 14px; }
 .thumbs .zslot { width: 100%; }
 .thumbs image-slot { display:block; width: 100%; aspect-ratio: 1/1; border: 1px solid var(--line-soft); }
+.viewer-wide {
+  margin-top: 14px;
+  background: var(--card);
+  border: 1px solid var(--line-soft);
+  box-shadow: var(--shadow-soft);
+  padding: 18px;
+}
+.viewer-wide.unframed {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.viewer-wide .zslot {
+  width: 100%;
+}
+.viewer-wide image-slot {
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--wide-aspect, 1/1);
+  border: 1px solid var(--line-soft);
+}
+.viewer-wide.unframed image-slot {
+  border: 0;
+  background: transparent;
+}
 
 /* ---- zoomable slot: click image to enlarge ---- */
 .zslot { position: relative; }
