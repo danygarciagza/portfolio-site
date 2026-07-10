@@ -114,7 +114,7 @@ function ProjectDetail({ lang, go, catId, slug }) {
       <div className="crumbs">
         <a onClick={() => go("work")}>{T.nav[lang][2]}</a><span>/</span>
         <a onClick={() => go("category", { cat: cat.id })}>{tx(cat.name, lang)}</a><span>/</span>
-        <span>{tx(project.title, lang)}</span>
+        <span className="crumb-current">{tx(project.title, lang)}</span>
       </div>
       <div className="project-pager" aria-label={lang === "es" ? "Navegación de proyectos" : "Project navigation"}>
         <button className="pager-link" onClick={() => go("project", { cat: cat.id, slug: prev.slug })}>

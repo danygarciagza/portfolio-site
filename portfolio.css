@@ -637,6 +637,10 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
 }
 .crumbs a { cursor: pointer; }
 .crumbs a:hover { color: var(--accent-deep); }
+.crumb-current {
+  color: var(--accent-deep);
+  font-weight: 700;
+}
 .project-pager {
   display: flex;
   align-items: flex-start;
