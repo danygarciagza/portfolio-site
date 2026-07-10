@@ -672,15 +672,26 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   vertical-align: -2px;
 }
 .pager-name {
-  display: block;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
   font-family: var(--font-display);
   font-size: clamp(18px, 2.3vw, 26px);
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: 0;
 }
+.pager-link.next .pager-name {
+  justify-content: flex-end;
+}
+.pager-name-arrow {
+  color: var(--accent-deep);
+  font-size: 1.15em;
+  line-height: 0;
+}
 .pager-link:hover .pager-name,
-.pager-link:hover .pager-dir {
+.pager-link:hover .pager-dir,
+.pager-link:hover .pager-name-arrow {
   color: var(--accent-deep);
 }
 .shelf-nav {

@@ -119,11 +119,11 @@ function ProjectDetail({ lang, go, catId, slug }) {
       <div className="project-pager" aria-label={lang === "es" ? "Navegación de proyectos" : "Project navigation"}>
         <button className="pager-link" onClick={() => go("project", { cat: cat.id, slug: prev.slug })}>
           <span className="pager-dir"><span className="pager-arrow">←</span> {tx(T.prev, lang)}</span>
-          <span className="pager-name display">{tx(prev.title, lang)}</span>
+          <span className="pager-name display"><span className="pager-name-arrow">←</span>{tx(prev.title, lang)}</span>
         </button>
         <button className="pager-link next" onClick={() => go("project", { cat: cat.id, slug: next.slug })}>
           <span className="pager-dir">{tx(T.next, lang)} <span className="pager-arrow">→</span></span>
-          <span className="pager-name display">{tx(next.title, lang)}</span>
+          <span className="pager-name display">{tx(next.title, lang)}<span className="pager-name-arrow">→</span></span>
         </button>
       </div>
       <div className="detail">
