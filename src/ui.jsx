@@ -373,7 +373,7 @@ function ProductViewer({ project, lang, section = "all" }) {
           )}
           </div>
           {project.wideSrc &&
-          <div className={"viewer-wide" + (project.mainUnframed ? " unframed" : "")} style={{ "--wide-aspect": project.wideAspect || "1/1" }}>
+          <div className={"viewer-wide" + (project.mainUnframed ? " unframed" : "")} style={{ "--wide-aspect": project.wideAspect || "1/1", "--wide-height": project.wideHeight || "auto" }}>
               <ZoomableSlot
               id={`pv-${project.slug}-wide`}
               shape="rect"

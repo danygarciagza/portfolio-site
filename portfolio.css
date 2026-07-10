@@ -977,10 +977,12 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
 }
 .viewer-wide .zslot {
   width: 100%;
+  height: var(--wide-height, auto);
 }
 .viewer-wide image-slot {
   display: block;
   width: 100%;
+  height: var(--wide-height, auto);
   aspect-ratio: var(--wide-aspect, 1/1);
   border: 1px solid var(--line-soft);
 }
