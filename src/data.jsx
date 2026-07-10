@@ -140,8 +140,8 @@ const PROJECTS = [
   {
     slug: "pet-station", category: "furniture", year: "2026", has3d: false, mainSrc: "uploads/huella-main-station.webp", mainHeight: "500px", mainUnframed: true, rot: "-.6deg",
     title: "Huella",
-    thumbSrcs: { 1: "uploads/huella-process-cropped.jpg", 2: "uploads/huella-main.webp" },
-    thumbPositions: { 1: "50% 48%" },
+    thumbSrcs: { 1: "uploads/huella-main.webp", 2: "uploads/huella-process-cropped.jpg", 3: "uploads/huella-use-standing.jpg" },
+    thumbPositions: { 2: "50% 48%", 3: "50% 43%" },
     tag: { en: "Pet care station", es: "Estación para mascotas" },
     oneLine: {
       en: "A full-scale modular pet station built from concept to high-quality prototype.",
