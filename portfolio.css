@@ -693,32 +693,6 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
 .pager-link:hover .pager-name-arrow {
   color: var(--accent-deep);
 }
-.shelf-nav {
-  display: flex; align-items: stretch; justify-content: space-between;
-  gap: 12px; margin: -8px 0 26px;
-}
-.shelf-nav-bottom {
-  margin: clamp(38px, 6vw, 70px) 0 0;
-  padding-top: 18px;
-  border-top: 1px solid var(--line-soft);
-}
-.shelf-jump {
-  display: inline-flex; align-items: center; gap: 12px;
-  background: var(--card); cursor: pointer;
-  border: 1.5px solid var(--line); border-radius: 10px;
-  padding: 8px 13px; transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
-  color: var(--ink);
-}
-.shelf-jump:hover {
-  border-color: var(--accent); transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,.07);
-}
-.shelf-jump .sj-txt { display: flex; flex-direction: column; gap: 2px; }
-.shelf-jump .sj-lbl {
-  font-family: var(--font-type); font-size: 9.5px; letter-spacing: .12em;
-  text-transform: uppercase; color: var(--ink-faint);
-}
-.shelf-jump .sj-nm { font-family: var(--font-display); font-weight: 700; font-size: 14px; }
 .back-btn {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--font-type); font-size: 12px; letter-spacing: .06em;
@@ -1609,9 +1583,6 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
     aspect-ratio: var(--cover-aspect, 4/3.4);
   }
 
-  .shelf-nav {
-    flex-direction: column;
-  }
   .project-pager {
     gap: 12px;
     margin-bottom: 24px;
@@ -1621,14 +1592,6 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   }
   .pager-name {
     font-size: clamp(16px, 5vw, 22px);
-  }
-  .shelf-jump {
-    width: 100%;
-    justify-content: flex-start;
-    border-radius: 10px;
-  }
-  .shelf-jump.alt {
-    justify-content: flex-end;
   }
   .detail {
     gap: 26px;
@@ -1823,12 +1786,6 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   .viewer-main.fixed-height .zslot,
   .viewer-main-grid > .zslot {
     height: clamp(240px, 72vw, 320px);
-  }
-  .shelf-jump {
-    padding: 10px 12px;
-  }
-  .shelf-jump .sj-nm {
-    font-size: 15px;
   }
   .contact-panel {
     text-align: left;

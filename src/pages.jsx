@@ -146,22 +146,6 @@ function ProjectDetail({ lang, go, catId, slug }) {
           <p className="detail-body">{tx(project.body, lang)}</p>
         </div>
       </div>
-      <div className="shelf-nav shelf-nav-bottom">
-        <button className="shelf-jump" onClick={() => go("work", { focus: cat.id })}>
-          <span className="sj-txt">
-            <span className="sj-lbl">{lang === "es" ? "Volver al estante" : "Back to shelf"}</span>
-            <span className="sj-nm">{tx(cat.name, lang)}</span>
-          </span>
-        </button>
-        {nextCat && nextCat.id !== cat.id &&
-        <button className="shelf-jump alt" onClick={() => go("work", { focus: nextCat.id })}>
-            <span className="sj-txt" style={{ textAlign: "right" }}>
-              <span className="sj-lbl">{lang === "es" ? "Siguiente estante" : "Next shelf"}</span>
-              <span className="sj-nm">{tx(nextCat.name, lang)}</span>
-            </span>
-          </button>
-        }
-      </div>
     </div>);
 
 }
