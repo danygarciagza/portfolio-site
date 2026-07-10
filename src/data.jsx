@@ -216,8 +216,8 @@ const T = {
   idValid:{ en: "Valid", es: "Vigencia" },
   stamp:  { en: "Certified object maker", es: "Hacedora de objetos certificada" },
   bio: {
-    en: "I'm <b>Daniela Garc\u00eda</b>, an industrial designer from Mexico. I like objects that solve something real and still make you smile \u2014 ergonomics that care, forms that carry a story, and details borrowed from gardens, dunes and album covers. I work from concept and 3D modeling all the way through to real prototypes.",
-    es: "Soy <b>Daniela García</b>, diseñadora industrial mexicana. Me gustan los objetos que resuelven algo real y también te hacen sonreír — ergonomía que cuida, formas que cuentan una historia y detalles tomados de jardines, dunas y portadas de discos. Trabajo desde el concepto y el modelado 3D hasta prototipos reales.",
+    en: "I'm <b>Daniela García</b>, an industrial designer based in Mexico. I create functional objects that balance genuine user empathy with aesthetic intent, bringing a thoughtful, human element to everyday interactions. My process bridges digital precision with physical craft, taking projects from initial concept and 3D modeling all the way to tangible, working prototypes.",
+    es: "Soy <b>Daniela García</b>, diseñadora industrial basada en México. Creo objetos funcionales que equilibran una empatía genuina hacia el usuario con intención estética, aportando un elemento humano y considerado a las interacciones cotidianas. Mi proceso conecta la precisión digital con el oficio físico, llevando los proyectos desde el concepto inicial y el modelado 3D hasta prototipos tangibles y funcionales.",
   },
   // detail
   overview:{ en: "Overview", es: "Resumen" },
