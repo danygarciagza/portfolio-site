@@ -863,8 +863,12 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   box-shadow: none;
   padding: 0;
 }
+.viewer-main.unframed .zslot {
+  background: transparent;
+}
 .viewer-main.unframed image-slot {
   background: transparent;
+  border: 0;
 }
 .viewer-main image-slot {
   display:block; width: 100%; aspect-ratio: 1/1;
@@ -1622,6 +1626,9 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   }
   .viewer-main {
     padding: 10px;
+  }
+  .viewer-main.unframed {
+    padding: 0;
   }
   .viewer-badge {
     top: 12px;
