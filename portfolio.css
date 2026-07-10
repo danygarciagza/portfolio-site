@@ -666,11 +666,6 @@ image-slot { background: color-mix(in srgb, var(--card) 62%, var(--paper-3)); }
   color: var(--ink-faint);
   margin-bottom: 4px;
 }
-.pager-arrow {
-  font-size: 18px;
-  line-height: 0;
-  vertical-align: -2px;
-}
 .pager-name {
   display: flex;
   align-items: baseline;
