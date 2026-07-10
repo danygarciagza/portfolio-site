@@ -138,7 +138,7 @@ const PROJECTS = [
     },
   },
   {
-    slug: "pet-station", category: "furniture", year: "2026", has3d: false, coverSrc: "uploads/huella-main.webp", mainSrc: "uploads/huella-main-station.webp", mainHeight: "500px", mainUnframed: true, rot: "-.6deg",
+    slug: "pet-station", category: "furniture", year: "2026", has3d: false, coverSrc: "uploads/huella-main.webp", coverPosition: "44% 50%", mainSrc: "uploads/huella-main-station.webp", mainHeight: "500px", mainUnframed: true, rot: "-.6deg",
     title: "Huella",
     thumbSrcs: { 1: "uploads/huella-main.webp", 2: "uploads/huella-process-cropped.webp", 3: "uploads/huella-use-standing.webp" },
     thumbPositions: { 2: "50% 48%", 3: "50% 43%" },
