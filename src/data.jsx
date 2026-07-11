@@ -195,7 +195,7 @@ const T = {
   },
   tagline: {
     en: "I craft objects, brands, and experiences that bridge tactile storytelling with human-centered logic. From strategic ergonomics to poetic rituals.\n\nWelcome to my studio workspace.",
-    es: "Diseño objetos, marcas y experiencias que conectan la narrativa táctil con una lógica centrada en las personas. Desde la ergonomía estratégica hasta los rituales poéticos.\n\nBienvenida a mi espacio de estudio.",
+    es: "Diseño objetos, marcas y experiencias que conectan la narrativa táctil con una lógica centrada en las personas. Desde la ergonomía estratégica hasta los rituales poéticos.\n\nBienvenidos a mi espacio de estudio.",
   },
   sig:    { en: "— hi, I'm Dani", es: "— hola, soy Dani" },
   openTag:{ en: "open", es: "\u00e1breme" },
